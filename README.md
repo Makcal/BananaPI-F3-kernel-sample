@@ -28,7 +28,7 @@ xc_bin=<PATH_TO_TOOLCHAIN_BIN>/bin make
 4. You can observe a spoofed Linux kernel in the `build/` folder.
 Put it to the `bootfs.ext4` similar to spoofing `rootfs.ext4`
 that is described in the flashing instruction from "Useful links".
-
+\
 If you have mounted `bootfs.ext4` to `/mnt`, then you can just call `make transfer`.
 
 5. **[Optional]** If for some reason you want to keep the original Linux kernel in place, there is `make append`
